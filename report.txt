@@ -1,0 +1,8 @@
+repport :
+1 Functional Interfaces:
+-BinaryOperator<T>:Contains method apply that takes two T arguments, performs an operation on them (such as a calculation) and returns a value of type T. 
+-Consumer<T>:Contains method accept that takes a T argument and returns void. Performs a task with it’s T argument, such as outputting the object, invoking a method of the object, etc
+-Function<T,R>:Contains method apply that takes a T argument and returns a value of type R. Calls a method on the T argument and returns that method’s result
+-Predicate<T> :Contains method test that takes a T argument and returns a boolean. Tests whether the T argument satisfies a condition
+-Supplier<T>:Contains method get that takes no arguments and produces a value of type T. Often used to create a collection object in which a stream operation’s results are placed
+-UnaryOperator<T>  :Contains method get that takes no arguments and returns a value of type T. 
